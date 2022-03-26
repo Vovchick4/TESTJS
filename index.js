@@ -1,7 +1,7 @@
 function getNumbers(numb) {
     return String(numb).length
 }
-// console.log(getNumbers(3834));
+console.log(getNumbers(3834))
 
 function perfectNumbers(numb) {
     const arrNumb = []
@@ -21,5 +21,5 @@ function perfectNumbers(numb) {
 
     return arrNumb
 }
-// console.log(perfectNumbers(38))
+console.log(perfectNumbers(38))
 module.exports = { getNumbers, perfectNumbers }
