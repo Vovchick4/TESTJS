@@ -21,5 +21,5 @@ function perfectNumbers(numb) {
 
     return arrNumb
 }
-console.log(perfectNumbers(38))
+console.log(perfectNumbers(83))
 module.exports = { getNumbers, perfectNumbers }
